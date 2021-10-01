@@ -1,0 +1,20 @@
+/* Belajar Text Styling */
+
+h1{
+    font-size: 50px;
+    color: skyblue;
+    text-transform: capitalize;
+}
+
+p{
+    text-align: justify;
+    text-indent: 70px;
+    text-decoration: normal;
+    letter-spacing: 1px;
+    /* mengatur jarak huruf */
+}
+
+a{
+    text-decoration: none; 
+    /* menghilangkan garis link */
+}

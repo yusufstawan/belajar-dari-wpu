@@ -1,0 +1,35 @@
+/* jika ingin mengubah keseluruhan body */
+body{
+    font-family: arial;
+}
+
+/* jika ingin menggabungkan dengan style yang sama */
+h1,h2 {
+    color: green;
+}
+
+/* (spasi) jika ingin memilih bagian tersendiri yaitu a didalam li dan didalam ul */
+ul li a{
+    color: orange;
+}
+
+#p1 {
+    color: orange;
+}
+
+.p2 {
+    color: red;
+}
+
+.cetakTebal {
+    font-weight: bold;
+}
+
+p.cetakTebal {
+    font-size: 20px;
+}
+/* 
+- sebuah elemen HTML hanya boleh memiliki 1 id
+- id digunkanan untuk javascript
+- untuk CSS bisa menggunakan class dan tidak disarankan dengan id
+*/

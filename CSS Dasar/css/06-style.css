@@ -1,0 +1,49 @@
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active{
+ font-style: italic;
+}
+
+.hello:visited{
+    color: red;
+}
+
+/* dibawah ada konsep parent dan child */
+
+li:first-child a {
+    color: green;
+}
+
+li:last-child a {
+    color: red;
+}
+
+li:nth-child(4) a {
+    color: red;
+}
+
+li:nth-child(even) a {
+    color: yellow;
+}
+
+li:nth-child(even) a:hover {
+    color: red;
+}
+
+/* pseudo class yang berhubungan dengan posisi elemen */
+
+p:first-of-type {
+    color: red;
+}
+
+p:last-of-type {
+    color: green;
+}

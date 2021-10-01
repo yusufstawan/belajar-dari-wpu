@@ -1,0 +1,9 @@
+body{
+    color: darkgrey;
+    font-family: arial;
+}
+
+/* dengan memberikan inherit maka akan mewarisi warna dari body */
+a {
+    color:inherit
+}

@@ -1,0 +1,9 @@
+div{
+    width: 300px;
+    height: 300px;
+    background-color: coral;
+    margin: 20px auto;
+    padding: 50px;
+    border-left: 5px solid black;
+    border-right: 5px dashed blue;
+}

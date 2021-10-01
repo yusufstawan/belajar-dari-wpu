@@ -1,0 +1,19 @@
+/* p {
+    color: red;
+}
+
+p {
+    color: green;
+} */
+
+/* diatas yang akan dieksekusi adalah baris paling akhir */
+
+#p1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+/* id akan selalu diutamakan karena id lebih spesifik */
